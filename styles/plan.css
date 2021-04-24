@@ -1,0 +1,147 @@
+.header {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  background-color: darkgray;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.pages {
+  margin-bottom: 10px;
+  font-family: Chango;
+  font-size: 18px;
+}
+
+.pageLink {
+  color: yellow;
+}
+
+p {
+  font-size: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-family: Oi;
+}
+
+body {
+  background-image: url("../images/knife.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contentTitle {
+  font-size: 25px;
+  font-family: Oi;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.indexTitle {
+  cursor: pointer;
+  user-select: none;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.containerText {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  margin-right: 50px;
+  background-image: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  padding-left: 18px;
+  border: 1px solid black;
+}
+
+.titleImage {
+  height: 350px;
+  width: 700px;
+  margin-top: 70px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.infoTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.infoDetail {
+  margin-bottom: 10px;
+}
+
+.networksContainer {
+  font-size: 25px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  min-height: 100px;
+  padding: 20px;
+  /* margin-bottom: -50px; */
+  font-size: 20px;
+  margin-top: 100px;
+  /* width: 700px; */
+}
+
+.footerText {
+  display: flex;
+  flex: 0.5;
+}
+
+@font-face {
+  font-family: "Akaya";
+  src: url(../fonts/AkayaTelivigala-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Oi";
+  src: url(../fonts/ReggaeOne-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Chango";
+  src: url(../fonts/Chango-Regular.ttf) format("truetype");
+}

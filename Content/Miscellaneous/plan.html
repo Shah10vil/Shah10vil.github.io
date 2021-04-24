@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/plan.css" />
+    <script src="../../javascripts/home.js"></script>
+    <script src="../../javascripts/plan.js"></script>
+    <title>Shahin Rajaie Website</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">Site Plan</div>
+      <div id="date" class="dateAndTime"></div>
+      <div class="pages">
+        <span>
+          <a href="../../index.html" class="pageLink"> Main Page </a>
+        </span>
+        <span> - </span>
+        <span>
+          <a href="../../Content/Forms/form.html" class="pageLink"> Form </a>
+        </span>
+        <span> - </span>
+        <span>
+          <a href="../../Content/Miscellaneous/plan.html" class="pageLink">
+            Site Plan
+          </a>
+        </span>
+        <span> - </span>
+        <span>
+          <a href="../../Content/Miscellaneous/table.html" class="pageLink">
+            Table
+          </a>
+        </span>
+      </div>
+      <div class="networksContainer">
+        <span> Shahin's networks: </span>
+        <span>
+          <button onclick="openLink('http://www.facebook.com/Rajaei.shahin')">
+            <img
+              class="icon"
+              src="../../images/facebook.png"
+              alt="facebookIcon"
+            />
+          </button>
+        </span>
+        <span>
+          <button
+            onclick="openLink('http://linkedin.com/in/shahin-rajaei-251469168')"
+          >
+            <img
+              class="icon"
+              src="../../images/linkedin.png"
+              alt="linkedinIcon"
+            />
+          </button>
+        </span>
+        <span>
+          <button onclick="openLink('https://twitter.com/vilsoon10')">
+            <img
+              class="icon"
+              src="../../images/twitter.png"
+              alt="twitterIcon"
+            />
+          </button>
+        </span>
+        <span>
+          <a href="mailto:shahin.rajaei@etu.univ-poitiers.fr"
+            ><img class="icon" src="../../images/gmail.png"
+          /></a>
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="containerText">
+        <ul>
+          <a class="imageButton">
+            <div
+              style="display: block"
+              onclick="handleStyle('i1'); handleStyle('i9');"
+              class="indexTitle"
+            >
+              index
+            </div>
+          </a>
+        </ul>
+        <div id="i1" style="display: none">
+          <ul>
+            <a onclick="handleStyle('i2');" class="imageButton">
+              <div class="indexTitle">/Content</div>
+            </a>
+            <ul id="i2" style="display: none">
+              <a class="imageButton">
+                <div onclick="handleStyle('i3')" class="indexTitle">
+                  /Collection
+                </div>
+              </a>
+              <ul id="i3" style="display: none">
+                <a class="imageButton">
+                  <div class="killerName">Charles Manson</div>
+                </a>
+                <a class="imageButton">
+                  <div class="killerName">Edmund Kemper</div>
+                </a>
+                <a class="imageButton">
+                  <div class="killerName">jackTheRipper</div>
+                </a>
+              </ul>
+            </ul>
+            <ul id="i2" style="display: none">
+              <a class="imageButton">
+                <div onclick="handleStyle('i4')" class="indexTitle">/Forms</div>
+              </a>
+              <ul id="i4" style="display: none">
+                <a class="imageButton">
+                  <div class="killerName">form</div>
+                </a>
+              </ul>
+            </ul>
+            <ul id="i2" style="display: none">
+              <a class="imageButton">
+                <div onclick="handleStyle('i5')" class="indexTitle">
+                  /Miscellaneous
+                </div>
+              </a>
+              <ul id="i5" style="display: none">
+                <a class="imageButton">
+                  <div class="killerName">plan</div>
+                  <div class="killerName">table</div>
+                </a>
+              </ul>
+            </ul>
+          </ul>
+          <ul id="i9" style="display: none">
+            <a class="imageButton">
+              <div onclick="handleStyle('i6')" class="indexTitle">/fonts</div>
+            </a>
+            <ul id="i6" style="display: none">
+              <a class="imageButton">
+                <div class="killerName">AkayaTelivigala-Regular</div>
+                <div class="killerName">Chango-Regular</div>
+                <div class="killerName">ReggaeOne-Regular</div>
+              </a>
+            </ul>
+          </ul>
+          <ul id="i9" style="display: none">
+            <a class="imageButton">
+              <div onclick="handleStyle('i7')" class="indexTitle">/images</div>
+            </a>
+            <ul id="i7" style="display: none">
+              <a class="imageButton">
+                <div class="killerName">arrow.png</div>
+                <div class="killerName">bcg.JPG</div>
+                <div class="killerName">charles_manson.jpg</div>
+                <div class="killerName">facebook.png</div>
+                <div class="killerName">form-background.jpg</div>
+                <div class="killerName">gmail.png</div>
+                <div class="killerName">header.jpg</div>
+                <div class="killerName">jack.jpg</div>
+                <div class="killerName">jackTheRipper.webp</div>
+                <div class="killerName">kemper.jpg</div>
+                <div class="killerName">kemper2.jpg</div>
+                <div class="killerName">knife.jpg</div>
+                <div class="killerName">linkedin.png</div>
+                <div class="killerName">manson.jpg</div>
+                <div class="killerName">people.jpg</div>
+                <div class="killerName">title.jpg</div>
+                <div class="killerName">twitter.png</div>
+                <div class="killerName">uniLogo.png</div>
+              </a>
+            </ul>
+          </ul>
+          <ul id="i9" style="display: none">
+            <a class="imageButton">
+              <div onclick="handleStyle('i8')" class="indexTitle">
+                /javascripts
+              </div>
+            </a>
+            <ul id="i8" style="display: none">
+              <a class="imageButton">
+                <div class="killerName">home.js</div>
+                <div class="killerName">index.js</div>
+                <div class="killerName">plan.js</div>
+                <div class="killerName">script.js</div>
+              </a>
+            </ul>
+          </ul>
+          <ul id="i9" style="display: none">
+            <a class="imageButton">
+              <div onclick="handleStyle('i10')" class="indexTitle">/styles</div>
+            </a>
+            <ul id="i10" style="display: none">
+              <a class="imageButton">
+                <div class="killerName">content.css</div>
+                <div class="killerName">form.css</div>
+                <div class="killerName">home.css</div>
+                <div class="killerName">index.css</div>
+                <div class="killerName">plan.css</div>
+                <div class="killerName">table.css</div>
+              </a>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footerText">
+        About me: My name is Shahin Rajaei, I am 25 years old and I am studying
+        medicine at the University of Poitiers. I was born in Iran and in high
+        school I was interested in web design with the help of my friends, but I
+        decided to change my life path and come to France.
+        <br />
+        <br />
+      </div>
+      <div>
+        <img
+          src="../../images/uniLogo.png"
+          alt="uniLogo"
+          style="height: 100px; width: 100px"
+        />
+      </div>
+    </div>
+  </body>
+</html>

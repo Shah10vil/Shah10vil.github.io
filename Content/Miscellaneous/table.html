@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/table.css" />
+    <script src="../../javascripts/home.js"></script>
+    <title>Shahin Rajaie Website</title>
+    <style>
+      table {
+        width: 100%;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid rgb(198, 247, 107);
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 25px;
+        text-align: left;
+      }
+      #t01 tr:nth-child(even) {
+        background-color: #fff;
+      }
+      #t01 tr:nth-child(odd) {
+        background-color: #fff;
+      }
+      #t01 th {
+        background-color: rgb(250, 234, 9);
+        color: rgb(241, 21, 21);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div id="date" class="dateAndTime"></div>
+      <div class="title">
+        <p id="code"></p>
+      </div>
+      <script src="javascripts/script.js"></script>
+      <div class="pages">
+        <span>
+          <a href="../../index.html" class="pageLink"> Main Page </a>
+        </span>
+        <span> - </span>
+        <span>
+          <a href="../../Content/Forms/form.html" class="pageLink"> Form </a>
+        </span>
+        <span> - </span>
+        <span>
+          <a href="../../Content/Miscellaneous/plan.html" class="pageLink">
+            Site Plan
+          </a>
+        </span>
+        <span> - </span>
+        <span>
+          <a href="../../Content/Miscellaneous/table.html" class="pageLink">
+            Table
+          </a>
+        </span>
+      </div>
+      <script src="../../javascripts/script.js"></script>
+      <div class="networksContainer">
+        <span> Shahin's networks: </span>
+        <span>
+          <button onclick="openLink('http://www.facebook.com/Rajaei.shahin')">
+            <img
+              class="icon"
+              src="../../images/facebook.png"
+              alt="facebookIcon"
+            />
+          </button>
+        </span>
+        <span>
+          <button
+            onclick="openLink('http://linkedin.com/in/shahin-rajaei-251469168')"
+          >
+            <img
+              class="icon"
+              src="../../images/linkedin.png"
+              alt="linkedinIcon"
+            />
+          </button>
+        </span>
+        <span>
+          <button onclick="openLink('https://twitter.com/vilsoon10')">
+            <img
+              class="icon"
+              src="../../images/twitter.png"
+              alt="twitterIcon"
+            />
+          </button>
+        </span>
+        <span>
+          <a href="mailto:shahin.rajaei@etu.univ-poitiers.fr"
+            ><img
+              alt="email to goole"
+              class="icon"
+              src="../../images/gmail.png"
+          /></a>
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="contentTitle">Quick Facts about the serial killers</div>
+      <table class="table" id="t01">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+          <th>Birth Date</th>
+          <th>Place of Birth</th>
+          <th>Nickname</th>
+          <th>Zodiac Sign</th>
+          <th>DID YOU KNOW?</th>
+        </tr>
+        <tr>
+          <td>
+            <a href="../Collection/edmund.html"> Edmund </a>
+          </td>
+          <td>Kemper</td>
+          <td>72</td>
+          <td>December 18, 1948</td>
+          <td>Burbank, California</td>
+          <td>The Co-ed Killer</td>
+          <td>Sagittarius</td>
+          <td>He is (2.06 m), and high intellect, possessing an IQ of 145</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="../Collection/charles.html"> Charles </a>
+          </td>
+          <td>Manson</td>
+          <td>83</td>
+          <td>November 12, 1934</td>
+          <td>Cincinnati, Ohio, U.S</td>
+          <td>The Family</td>
+          <td>Scorpio</td>
+          <td>
+            The Beach Boys released a song written by Charles Manson, "Cease To
+            Exist" (renamed "Never Learn Not To Love"), as a single B-side on
+            their 1969 album, 20/20.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="../Collection/jack.html"> Jack the Ripper </a>
+          </td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Jack the Ripper</td>
+          <td>Unknown</td>
+          <td>
+            Since that time, the identity of the killer or killers has been
+            widely debated, and over 100 Jack the Ripper suspects have been
+            named
+          </td>
+        </tr>
+      </table>
+      <div class="footer">
+        <div class="footerText">
+          About me: My name is Shahin Rajaei, I am studying medicine at the
+          University of Poitiers. I was born in Iran and in high school I was
+          interested in web design with the help of my friends, but I decided to
+          change my life path and come to France.
+          <br />
+          <br />
+        </div>
+        <div>
+          <img
+            src="../../images/uniLogo.png"
+            alt="uniLogo"
+            style="height: 100px; width: 100px"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

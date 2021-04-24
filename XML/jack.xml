@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE SerialKiller SYSTEM "index.dtd">
+<shahin>
+<title scr="/images/header.jpg">Infamous Serial Killenfamous Serial Killers</title>
+	<networks>
+		<network scr="/images/facebook.png" alt="facebookicon" href="http://www.facebook.com/Rajaei.shahin">facebook</network>
+		<network scr="/images/linkedin.png" alt="linkedinIcon" href="http://linkedin.com/in/shahin-rajaei-251469168">Linkedin</network>
+		<network scr="/images/twitter.png" alt="twitterIcon" href="https://twitter.com/vilsoon10">twitter</network>
+		<network scr="images/gmail.png" alt="linkedinIcon" href="shahin.rajaei@etu.univ-poitiers.fr">Gmail</network>
+	</networks>
+<head>Infamous murderer Jack the Ripper killed at least five London female
+          prostitutes in 1888. Never captured, his identity is one of English's
+          most famous unsolved mysteries.
+	</head>
+	<description>
+		<h2>Who Was Jack the Ripper?</h2>
+        <p>
+          From August 7 to September 10 in 1888, "Jack the Ripper" terrorized
+          the Whitechapel district in London's East End. He killed at least five
+          prostitutes and mutilated their bodies in an unusual manner,
+          indicating that the killer had a knowledge of human anatomy. Jack the
+          Ripper was never captured, and remains one of England's, and the
+          world's, most infamous criminals.
+        </p>
+        <h2>Suspects and Victims</h2>
+        <p>
+          Known for committing gruesome murders from August 7 to September 10 in
+          1888, "Jack the Ripper" — a moniker for the notorious serial killer,
+          who was never identified — remains one of England's, and the world's,
+          most infamous criminals. The culprit responsible for the murders of
+          five prostitutes—all took place within a mile of each other, and
+          involved the districts of Whitechapel, Spitalfields, Aldgate and the
+          City of London—in London's East End in the autumn of 1888 was never
+          apprehended. Despite countless investigations claiming definitive
+          evidence of the brutal killer's identity, his name and motive are
+          still unknown. The moniker "Jack the Ripper" originates from a letter
+          written by someone who claimed to be the Whitechapel butcher,
+          published at the time of the attacks. Adding to the mystery of the
+          affair is the fact that several letters were sent by the killer to the
+          London Metropolitan Police Service, also known as the Scotland Yard,
+          taunting officers about his gruesome activities and speculating on
+          murders to come. Various theories about Jack the Ripper's identity
+          have been produced over the past several decades, which include claims
+          accusing the famous Victorian painter Walter Sickert, a Polish migrant
+          and even the grandson of Queen Victoria. Since 1888, more than 100
+          suspects have been named, contributing to widespread folklore and
+          ghoulish entertainment surrounding the mystery. In the late 1800s,
+          London's East End was a place that was viewed by citizens with either
+          compassion or utter contempt. Despite being an area where skilled
+          immigrants, mainly Jews and Russians, came to start a new life and
+          start businesses, the district was notorious for squalor, violence and
+          crime. Prostitution was only illegal if the practice caused a public
+          disturbance, and thousands of brothels and low-rent lodging houses
+          provided sexual services during the late 19th century. At that time,
+          the death or murder of a working girl was rarely reported in the press
+          or discussed within polite society. The reality was that "ladies of
+          the night" were subject to physical attacks, which sometimes resulted
+          in death. Among these common violent crimes was the attack of English
+          prostitute Emma Smith, who was beaten and raped with an object by four
+          men. Smith, who later died of peritonitis, is remembered as one of
+          many unfortunate female victims who were killed by gangs demanding
+          protection money. However, the series of killings that began in August
+          1888 stood out from other violent crime of the time: They were marked
+          by sadistic butchery, suggesting a mind more sociopathic and hateful
+          than most citizens could comprehend. Jack the Ripper didn't just snuff
+          out life with a knife, he mutilated and humiliated women, and his
+          crimes seemed to portray an abhorrence for the entire female gender.
+          When Jack the Ripper's murders suddenly stopped, in the fall of 1888,
+          London citizens wanted answers that would not come, even more than a
+          century later. The ongoing case—which has spawned an industry of
+          books, films, TV series and historical tours—has met with a number of
+          hindrances, including lack of evidence, a gamut of misinformation and
+          false testimony, and tight regulations by the Scotland Yard. Jack the
+          Ripper has been the topic of news stories for more than 130 years, and
+          will likely continue to be for decades to come.
+        </p>
+        <h2>In Recent Years</h2>
+        <p>
+          In 2011, British detective Trevor Marriott, who had long been
+          investigating the Jack the Ripper murders, made headlines when he was
+          denied access to uncensored documents surrounding the case by the
+          Metropolitan Police. According to a 2011 ABC News article, London
+          officers refused to give Marriott the files because they include
+          protected information about police informants, thereby potentially
+          dissuading testimony by modern-day informants. In 2014, author and
+          amateur sleuth Russell Edwards claimed to have determined the identity
+          of Jack the Ripper by DNA results obtained from a shawl belonging to
+          one of the victims, Catherine Eddowes. Edwards asserted the evidence
+          pointed to Aaron Kosminski, a Polish immigrant and one of the prime
+          suspects in the grisly murders. The topic resurfaced when two
+          biochemists published the results of their tests on the shawl in a
+          March 2019 edition of Journal of Forensic Sciences, again fingering
+          Kosminski as a likely match. That finding was quickly disputed by
+          geneticists who challenged the methodology used and insisted that the
+          shawl had been contaminated by inappropriate handling.
+        </p>
+		<QUICKfacts src="./images/jack.jpg"/>
+          <name>Jack the Ripper</name>
+          <AKA>Jack the Ripper</AKA>
+	</description>
+	<footer src="./images/uniLogo.png" alt="uniLogo">About me: My name is Shahin Rajaei, I am 25 years old and I am
+          studying medicine at the University of Poitiers. I was born in Iran
+          and in high school I was interested in web design with the help of my
+          friends, but I decided to change my life path and come to France.
+	</Footnote>
+	<background src="./images/bcg.jpg"/>
+</shahin>

@@ -1,0 +1,164 @@
+.header {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  margin-top: 100px;
+  z-index: 10;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  background-color: darkgray;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.title {
+  margin-bottom: 5px;
+  font-family: Oi;
+}
+
+.pages {
+  margin-bottom: 10px;
+  font-family: Chango;
+  font-size: 18px;
+}
+
+.pageLink {
+  color: yellow;
+}
+
+body {
+  background-image: url("../images/bcg.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contentTitle {
+  font-size: 25px;
+  font-family: Oi;
+  margin-top: 50px;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleImage {
+  height: 350px;
+  width: 700px;
+  margin-top: 70px;
+}
+
+.description {
+  text-align: justify;
+  font-family: Akaya;
+  margin-top: 30px;
+  font-size: 20px;
+  width: 700px;
+}
+
+.networksContainer {
+  font-size: 25px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagesTitle {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+
+.images {
+  display: flex;
+  width: 900px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imageButton {
+  display: block;
+  margin-top: 20px;
+  position: relative;
+  border-radius: 7px;
+  background-color: transparent;
+}
+
+.singleImage {
+  position: relative;
+}
+
+.killerName {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.killerImage {
+  height: 400px;
+  width: 400px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  min-height: 100px;
+  padding: 20px;
+  margin-bottom: -50px;
+  font-size: 20px;
+  margin-top: 100px;
+  /* width: 700px; */
+}
+
+.footerText {
+  display: flex;
+  flex: 0.5;
+}
+
+@font-face {
+  font-family: "Akaya";
+  src: url(../fonts/AkayaTelivigala-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Oi";
+  src: url(../fonts/ReggaeOne-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Chango";
+  src: url(../fonts/Chango-Regular.ttf) format("truetype");
+}
+
+.require:invalid {
+  border: 1px red solid;
+}

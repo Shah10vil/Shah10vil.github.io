@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/form.css" />
+    <script src="../../javascripts/home.js"></script>
+    <title>Shahin Rajaie Website</title>
+  </head>
+  <body onload="showTime()">
+    <div class="header">
+      <div id="date" class="dateAndTime"></div>
+      <div class="title">
+        <p id="code"></p>
+      </div>
+      <script src="../../javascripts/script.js"></script>
+      <div class="pages">
+        <span>
+          <a href="../../index.html" class="pageLink"> Main Page </a>
+        </span>
+        <span> - </span>
+        <span>
+          <a href="../../Content/Forms/form.html" class="pageLink"> Form </a>
+        </span>
+        <span> - </span>
+        <span>
+          <a href="../../Content/Miscellaneous/plan.html" class="pageLink">
+            Site Plan
+          </a>
+        </span>
+        <span> - </span>
+        <span>
+          <a href="../../Content/Miscellaneous/table.html" class="pageLink">
+            Table
+          </a>
+        </span>
+      </div>
+      <script src="../../javascripts/script.js"></script>
+      <div class="networksContainer">
+        <span> Shahin's networks: </span>
+        <span>
+          <button onclick="openLink('http://www.facebook.com/Rajaei.shahin')">
+            <img
+              class="icon"
+              src="../../images/facebook.png"
+              alt="facebookIcon"
+            />
+          </button>
+        </span>
+        <span>
+          <button
+            onclick="openLink('http://linkedin.com/in/shahin-rajaei-251469168')"
+          >
+            <img
+              class="icon"
+              src="../../images/linkedin.png"
+              alt="linkedinIcon"
+            />
+          </button>
+        </span>
+        <span>
+          <button onclick="openLink('https://twitter.com/vilsoon10')">
+            <img
+              class="icon"
+              src="../../images/twitter.png"
+              alt="twitterIcon"
+            />
+          </button>
+        </span>
+        <span>
+          <a href="mailto:shahin.rajaei@etu.univ-poitiers.fr"
+            ><img class="icon" src="../../images/gmail.png"
+          /></a>
+        </span>
+      </div>
+    </div>
+
+    <div class="content-container">
+      <form id="id_form">
+        <fieldset>
+          <legend>Identity</legend>
+
+          <p>
+            <label for="id_nom"> Lastname </label>
+            <input
+              id="id_nom"
+              name="last Name"
+              type="text"
+              placeholder="Entre your Lastname"
+              class="require"
+              required
+            />
+          </p>
+          <p>
+            <label for="id_prenom"> name </label>
+            <input
+              id="id_prenom"
+              name="first Name"
+              type="text"
+              placeholder="Enter your first name"
+              class="require"
+              required
+            />
+          </p>
+          <p>
+            <label for="id_homme"> Male </label>
+            <input
+              id="id_homme"
+              type="radio"
+              checked="checked"
+              name="sex"
+              value="male"
+            />
+            <label for="id_femme"> Female </label>
+            <input id="id_femme" type="radio" name="sex" value="female" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Choose your password</legend>
+          <p>
+            <label for="id_pwd"> password </label>
+            <input
+              id="id_pwd"
+              name="password"
+              type="password"
+              class="require"
+              required
+            />
+            <br />
+            <br />
+            <label for="id_pwd1"> Enter your password again </label>
+            <input
+              id="id_pwd1"
+              name="password repeat"
+              type="password"
+              class="require"
+              required
+            />
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Informations</legend>
+
+          <div>
+            <p>
+              <label for="id_trancheage"> Age range </label>
+              <select name="age" id="id_trancheage" size="1">
+                <option value="Under 18">Under 18</option>
+                <option value="Between 19 and 29 years" selected="selected">
+                  Between 19 and 29 years
+                </option>
+                <option value="Between 30 and 59 years old">
+                  Between 30 and 59 years old
+                </option>
+                <option value="Over 60">Over 60</option>
+              </select>
+            </p>
+            <p>
+              <label for="killers">
+                Your level of familiarity with serial killers
+              </label>
+              <select
+                id="killers"
+                name="Your level of familiarity with serial killers"
+                size="3"
+                multiple="multiple"
+              >
+                <optgroup label="killer">
+                  <option value="a little" selected="selected">a little</option>
+                  <option value="not bad">not bad</option>
+                  <option value="normal">normal</option>
+                  <option value="very much">very much</option>
+                </optgroup>
+              </select>
+              <br />
+              <br />
+              <label for="killers"> Which killer would you like to see? </label>
+              <select
+                id="killers"
+                name="Which killer would you like to see?"
+                size="3"
+                multiple="multiple"
+              >
+                <optgroup>
+                  <option value="Manson" selected="selected">Manson</option>
+                  <option value="Kemper">Kemper</option>
+                  <option value="Jack The Ripper">Jack The Ripper</option>
+                  <option value="No one">No one</option>
+                </optgroup>
+              </select>
+
+              <br />
+              <br />
+              <label for="id_explication"> Why You choose our Website ? </label>
+              <br />
+              <br />
+              <textarea
+                id="id_explication"
+                name="Why You choose our Website ?"
+                rows="5"
+                cols="20"
+                placeholder="you don't have any choice :) "
+                class="require"
+                required
+              ></textarea>
+            </p>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <button type="reset">RESET</button>
+          <button type="button" onclick="saveData()">Submit</button>
+          <button type="button" onclick="validateData()">CHECK</button>
+        </fieldset>
+      </form>
+
+      <div class="form-error-div" id="form-error"></div>
+      <div id="form-result"></div>
+    </div>
+
+    <div class="footer">
+      <div class="footerText">
+        About me: My name is Shahin Rajaei, I am studying medicine at the
+        University of Poitiers. I was born in Iran and in high school I was
+        interested in web design with the help of my friends, but I decided to
+        change my life path and come to France.
+        <br />
+        <br />
+      </div>
+      <div>
+        <img
+          src="../../images/uniLogo.png"
+          alt="uniLogo"
+          style="height: 100px; width: 100px"
+        />
+      </div>
+    </div>
+  </body>
+</html>
