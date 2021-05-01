@@ -1,22 +1,3 @@
-var i = 0;
-var txt = "Infamous Serial Killers";
-var speed = 70;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("code").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-
-function handleTime() {
-  var date = new Date();
-  return `${date.toLocaleDateString()} - ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-}
-
-typeWriter();
-
 function saveData() {
   var formData = new FormData(document.querySelector("#id_form"));
   var resultElem = document.querySelector("#form-result");
